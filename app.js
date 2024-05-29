@@ -9,6 +9,8 @@ const Product = require("./models/product");
 const { appendFile } = require("fs");
 const app = express();
 
+
+
 // Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
